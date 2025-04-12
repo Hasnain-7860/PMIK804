@@ -7,7 +7,7 @@ const Token2 = () => {
         <div>
             <h1 className='text-white text-[45px] py-[10vh] font-semibold '>Token <span className='text-red-500'> Utility </span></h1>
         </div>
-        <div className='text-white grid grid-cols-2 container gap-5'>
+        <div className='text-white grid grid-cols-1  container gap-5 lg:grid-cols-2'>
             {Token2Data.map((data)=>(
                 <div className='  px-[7vw] py-8  bg-green-900 shadow-xl rounded-md    ' key={data.id}>
                     <div className='flex justify-between py-4'>
