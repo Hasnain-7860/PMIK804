@@ -21,7 +21,7 @@ const Roadmap = () => {
             <p>Listing of more than 100 coins on
             Coingarage exchange.</p>
           </div>
-          <div className='flex flex-col w-[17vw] gap-2'>
+          <div className='flex flex-col w-full gap-2 lg:w-[17vw]'>
             <h1 className='text-red-500 text-[20px]' >2024 Q1</h1>
             <p>Launch of automatic trading bot on
             EZZY trader.</p>
@@ -38,7 +38,7 @@ const Roadmap = () => {
             <p>Listing on Coinpaprika.</p>
             <p>Launch of knowledge base.</p>
           </div>
-          <div className='flex flex-col w-[17vw] gap-2'>
+          <div className='flex flex-col w-full gap-2 lg:w-[17vw]'>
             <h1 className='text-red-500 text-[20px]' >2025 Q1</h1>
             <p>Listing of GARA for trading on the
             Coingarage exchange..</p>
