@@ -1,8 +1,9 @@
 import React from 'react'
 import img1 from '../assets/img1.png'
 
-const What = () => {
+const New = () => {
   return (
+   
     <div className='text-white  grid grid-cols-1 lg:grid-cols-2  items-center  '>
     <div>
         <img src={img1} alt="" />
@@ -22,4 +23,4 @@ const What = () => {
   )
 }
 
-export default What
+export default New
