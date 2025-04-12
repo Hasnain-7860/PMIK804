@@ -1,5 +1,8 @@
 import Icon from '../assets/Icon.png'
 import Icon1 from '../assets/Icon1.png'
+import Icon2 from '../assets/IconContainer2.png'
+import Icon3 from '../assets/IconContainer3.png'
+
 
 export const Token2Data =[
     {
@@ -55,13 +58,13 @@ export const TokenData =[
     },
     {
         id:2,
-        img:Icon1,
+        img:Icon2,
         title:"Total Supply",
         text:"Build your savings with our competitive interest rates and flexible savings account options. Whether you're saving for a specific goal or want to grow your wealth over time, we have the right account for you.",
     },
     {
         id:3,
-        img:Icon1,
+        img:Icon3,
         title:"Meme Utility",
         text:"Realize your dreams with our flexible loan and mortgage options. From personal loans to home mortgages, our experienced loan officers are here to guide you through the application process and help you secure the funds you need.",
     },
@@ -73,13 +76,13 @@ export const TokenData =[
     },
     {
         id:5,
-        img:Icon1,
+        img:Icon2,
         title:"Decentralized Donations",
         text:"Build your savings with our competitive interest rates and flexible savings account options. Whether you're saving for a specific goal or want to grow your wealth over time, we have the right account for you.",
     },
     {
         id:6,
-        img:Icon1,
+        img:Icon3,
         title:"Anti-Whale Mechanism",
         text:"Realize your dreams with our flexible loan and mortgage options. From personal loans to home mortgages, our experienced loan officers are here to guide you through the application process and help you secure the funds you need.",
     },
