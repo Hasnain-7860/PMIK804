@@ -4,17 +4,17 @@ import logo from '../assets/Frame 1.png'
 
 const Navbar = () => {
   return (
-    <div className='bg-green-700  rounded-3xl container'>
+    <div className='bg-green-900  rounded-3xl container'>
     <div className='flex justify-between  text-center items-center py-2 px-4 '>
         <div>
             <img src={logo} alt="" />
         </div>
         <div>
-            <ul className='flex gap-10 text-white '>
-                <li className=' hover:border rounded bg-yellow-500'>Home</li>
-                <li>Careers</li>
-                <li>About</li>
-                <li>Security</li>
+            <ul className='flex  text-white '>
+                <li className='bg-green-900 rounded-3xl  hover: px-10 py-3 hover:bg-gray-500'>Home</li>
+                <li className='bg-green-900 rounded-3xl  hover: px-10 py-3 hover:bg-gray-500'>Careers</li>
+                <li className='bg-green-900 rounded-3xl  hover: px-10 py-3 hover:bg-gray-500'>About</li>
+                <li className='bg-green-900 rounded-3xl  hover: px-10 py-3 hover:bg-gray-500'>Security</li>
             </ul>
         </div>
         <div>
