@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
        <div>
         <hr className=''   />
-        <div className='grid grid-cols-1 text-center items-center justify-center gap-8 py-6 lg:grid-cols-3'>
+        <div className='grid grid-cols-1 text-center items-center justify-center gap-8 py-6 lg:flex'>
             <div className='flex items-center text-center justify-center'>
             <img src={iconn1} alt="" />
             <p>hello@skillbirdge.com</p>
