@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
         <div>
            <button className='hidden lg:block bg-red-600 px-6 py-2 font-semibold rounded-3xl text-white '>Connect Wallet</button>
-           <RxHamburgerMenu className='lg:hidden' />
+           <RxHamburgerMenu className='lg:hidden text-[8vw]' />
         </div>
         
     </div>
