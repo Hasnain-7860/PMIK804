@@ -7,6 +7,7 @@ import Token2 from './Components/Token2'
 import Roadmap from './Components/Roadmap'
 import Today from './Components/Today'
 import New from './Components/New'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Token2/>
       <Roadmap/>
       <Today/>
+      <Footer/>
     </div>
   
   )
