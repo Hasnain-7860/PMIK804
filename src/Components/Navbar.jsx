@@ -1,11 +1,13 @@
 import React from 'react'
 import logo from '../assets/Frame 1.png'
+import { RxHamburgerMenu } from "react-icons/rx";
+
 
 
 const Navbar = () => {
   return (
     <div className='bg-green-900  rounded-3xl container'>
-    <div className='flex justify-between  text-center items-center py-2 px-4 '>
+    <div className='flex justify-between  text-center items-center lg:py-2 lg:px-4 '>
         <div>
             <img className='' src={logo} alt="" />
         </div>
@@ -19,7 +21,9 @@ const Navbar = () => {
         </div>
         <div>
            <button className='hidden lg:block bg-red-600 px-6 py-2 font-semibold rounded-3xl text-white '>Connect Wallet</button>
+           <RxHamburgerMenu className='lg:hidden' />
         </div>
+        
     </div>
     </div>
   )
