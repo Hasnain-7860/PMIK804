@@ -8,7 +8,7 @@ const New = () => {
     <div>
         <img src={img1} alt="" />
     </div>
-    <div className='w-[75%] pl-[10%]'>
+    <div className='px-10 w-full  lg:w-[75%] lg:pl-[10%]'>
     <div className=' flex flex-col gap-6  '>
         <h1 className='text-[35px] font-bold'>What is PMIK804?</h1>
         <p>PMIK804 is a meme-based decentralized cryptocurrency built on the Binance Smart Chain (BEP-20). It represents a symbol of support for Pakistan’s former Prime Minister, Imran Khan, and is powered by a community that stands for justice, freedom, and transparency.</p>
