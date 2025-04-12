@@ -8,7 +8,7 @@ const Roadmap = () => {
             <img className='w-full' src={Frame43} alt="" />
         </div>
         <div className='grid grid-cols-1 lg:flex gap-[8vw]'>
-          <div className='flex flex-col w-[17vw] gap-2'>
+          <div className='flex flex-col w-full gap-2 lg:w-[17vw]'>
             <h1 className='text-red-500 text-[20px]' >2023 Q1</h1>
             <p>Founding the company and forming the
             team.</p>
