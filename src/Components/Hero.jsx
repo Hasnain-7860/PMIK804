@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <div>
 
-    <div className="text-white grid grid-cols-1 lg:grid-cols-2 pt-[150px] container">
-      <div className="w-[60%] flex flex-col gap-6 " >
+    <div className="text-white grid grid-cols-1 lg:grid-cols-2 pt-[50px]  container lg:pt-[150px]">
+      <div className="w-full flex flex-col gap-6 lg:w-[60%] " >
         <div className="flex items-center text-center gap-3">
           <img src={Subtract} alt="" />
           <p>No LLC Required, No Credit Check.</p>
@@ -30,8 +30,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="">
-        <img className="relative" src={cion} alt="" />
-        <img className="absolute top-40 left-[63%]" src={container} alt="" />
+        <img className="lg:relative" src={cion} alt="" />
+        <img className="lg:absolute lg:top-40 lg:left-[63%]" src={container} alt="" />
         </div> 
 
     </div>
