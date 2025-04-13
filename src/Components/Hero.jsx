@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="">
-        <img className="lg:relative ml-5 top-[-90px] left-[5vw]" src={cion} alt="" />
+        <img className=" lg:relative  top-[-88px] lg:left-[7vw]" src={cion} alt="" />
         <img className="lg:absolute lg:top-[27vh] lg:left-[63%] " src={container} alt="" />
         <img className=" hidden lg:block w-[8vw] ml-[35vw]" src={cion} alt="" />
         </div> 
