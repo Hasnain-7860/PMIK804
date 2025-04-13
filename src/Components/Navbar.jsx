@@ -13,10 +13,10 @@ const Navbar = () => {
         </div>
         <div>
             <ul className=' hidden lg:flex  text-white '>
-                <button><li className='bg-green-900 rounded-3xl  hover: px-10 py-3 hover:bg-gray-500'>Home</li></button>
-                <button><li className='bg-green-900 rounded-3xl  hover: px-10 py-3 hover:bg-gray-500'>Careers</li></button>
-                <button><li className='bg-green-900 rounded-3xl  hover: px-10 py-3 hover:bg-gray-500'>About</li></button>
-                <button><li className='bg-green-900 rounded-3xl  hover: px-10 py-3 hover:bg-gray-500'>Security</li></button>
+                <button><li className='bg-green-900 rounded-3xl  hover: px-6 py-3 hover:bg-gray-500'>Home</li></button>
+                <button><li className='bg-green-900 rounded-3xl  hover: px-6 py-3 hover:bg-gray-500'>Careers</li></button>
+                <button><li className='bg-green-900 rounded-3xl  hover: px-6 py-3 hover:bg-gray-500'>About</li></button>
+                <button><li className='bg-green-900 rounded-3xl  hover: px-6 py-3 hover:bg-gray-500'>Security</li></button>
             </ul>
         </div>
         <div>
