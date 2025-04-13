@@ -10,7 +10,7 @@ const Hero = () => {
 
     <div className="text-white grid grid-cols-1 lg:grid-cols-2 pt-[50px]  container lg:pt-[130px]">
       <div className="w-full flex flex-col gap-6 lg:w-[60%] " >
-        <div className="flex items-center text-center gap-3">
+        <div className="flex items-center text-center gap-3  rounded-3xl  lg:bg-gray-700 lg:w-[65%] py-2 pl-2">
           <img src={Subtract} alt="" />
           <p>No LLC Required, No Credit Check.</p>
         </div>
