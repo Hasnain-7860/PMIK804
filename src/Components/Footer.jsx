@@ -14,7 +14,7 @@ const Footer = () => {
     <div className=' mt-[15vh] text-gray-300 flex flex-col container  pt-16 '>
         <div className=' flex flex-col text-center items-center justify-center gap-4 py-10'>
             <img src={logo} alt="" />
-            <ul className='grid grid-cols-1 gap-4 lg:grid-cols-4 '>
+            <ul className='grid grid-cols-1 gap-4 lg:grid-cols-4 font-semibold '>
                 <li>Home</li>
                 <li>Careers</li>
                 <li>About</li>
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
        <div>
         <hr className=''   />
-        <div className='grid grid-cols-1 text-center items-center justify-center gap-8 py-10 lg:flex'>
+        <div className='grid grid-cols-1 text-center items-center justify-center gap-8 py-10 lg:flex font-semibold'>
             <div className='flex items-center text-center justify-center'>
             <img src={iconn1} alt="" />
             <p>hello@skillbirdge.com</p>
