@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div>
 
-    <div className="text-white grid grid-cols-1 lg:grid-cols-2 pt-[50px]  container lg:pt-[150px]">
+    <div className="text-white grid grid-cols-1 lg:grid-cols-2 pt-[50px]  container lg:pt-[130px]">
       <div className="w-full flex flex-col gap-6 lg:w-[60%] " >
         <div className="flex items-center text-center gap-3">
           <img src={Subtract} alt="" />
@@ -30,9 +30,9 @@ const Hero = () => {
         </div>
       </div>
       <div className="">
-        <img className=" lg:relative  top-[-88px] lg:left-[7vw]" src={cion} alt="" />
+        <img className=" lg:relative  top-[-78px] lg:left-[7vw]" src={cion} alt="" />
         <img className="lg:absolute lg:top-[27vh] lg:left-[63%] " src={container} alt="" />
-        <img className=" hidden lg:block w-[8vw] ml-[35vw]" src={cion} alt="" />
+        <img className=" hidden lg:block w-[8vw] ml-[34vw]" src={cion} alt="" />
         </div> 
         <div>
         

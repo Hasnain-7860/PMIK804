@@ -13,9 +13,10 @@ import Question from './Components/Question'
 const App = () => {
   return (
     <div className='bg-black pt-8'>
-   
+      {/* h-screen bg-gradient-to-r from-green-900 via-red-300 to-green-900 */}
       <Navbar/>
       <Hero/>
+     
       <New/>
       <Token/>
       <Coin/>
@@ -24,6 +25,7 @@ const App = () => {
       <Question/>
       <Today/>
       <Footer/>
+    
     </div>
   
   )
