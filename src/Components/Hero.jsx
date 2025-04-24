@@ -3,8 +3,9 @@ import container from '../assets/Container.png'
 import Subtract from '../assets/Subtract.png'
 import cion from '../assets/cion2.png'
 import Group from '../assets/Group 1.png'
+import Button from "./Button";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div>
 
@@ -26,7 +27,8 @@ const Hero = () => {
           </p>
         </div>
         <div>
-           <button className='bg-red-600 px-6 py-2 font-semibold rounded-3xl text-white'>Buy PMIK804</button>
+          <Button>Buy PMIK804</Button>
+           {/* <button className='bg-red-600 px-6 py-2 font-semibold rounded-3xl text-white'>Buy PMIK804</button> */}
         </div>
       </div>
       <div className="">

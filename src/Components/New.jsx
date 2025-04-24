@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from '../assets/img1.png'
+import Button from './Button'
 
 const New = () => {
   return (
@@ -16,7 +17,7 @@ const New = () => {
        
     </div>
    
-    <button className='bg-red-600 px-6 py-2 font-semibold rounded-3xl text-white mt-7  '>Buy PMIK804</button>
+    <Button children="Buy PMIK804"/>
    
     </div>
     </div>

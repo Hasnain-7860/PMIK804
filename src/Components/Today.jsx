@@ -1,4 +1,5 @@
 import React from 'react'
+import ConnectWallet from './ConnectWallet'
 
 const Today = () => {
   return (
@@ -10,7 +11,7 @@ const Today = () => {
                 <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus pellentesque elit. Pellentesque eget ut imperdiet nulla penatibus. Nascetur viverra arcu sed amet cursus purus.</p>
             </div>
             <div>
-                <button className='bg-red-600 px-6 py-2 font-semibold rounded-3xl text-white shadow-lg'>Connect Wallet</button>
+              <ConnectWallet/>
             </div>
         </div>
     </div>
